@@ -24,7 +24,7 @@ Declare variable y equal to df with an argument CO2
 Declare a variable regr equal to linear_model.LinearRegression()
 
 ### Step 7:
-declare regr.fit(X,y)
+Declare regr.fit(X,y)
 
 ### Step 8:
 Print regr.coeff_
