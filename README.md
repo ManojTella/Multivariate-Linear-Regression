@@ -9,34 +9,16 @@ To write a python program to implement multivariate linear regression and predic
 Import Pandas module
 
 ### Step 2:
-Import linear_module from sklearn
-
+Read the csv file.
 ### Step 3:
-Declare data frame df to read the csv file
-
+Get the values of X and Y variable.
 ### Step 4:
-Declare variable X equal to df with two arguments Weight and Volume
-
+Create the linear regression and fit.
 ### Step 5:
-Declare variable y equal to df with an argument CO2
-
+Predict CO2 with appropriate values.
 ### Step 6:
-Declare a variable regr equal to linear_model.LinearRegression()
+Display the predicted value.
 
-### Step 7:
-Declare regr.fit(X,y)
-
-### Step 8:
-Print regr.coeff_
-
-### Step 9:
-Print regr.intercept_
-
-### Step 10:
-Declare variable predictedCO2 equal to regr.predict with two arguments 33300, 1300
-
-### Step 11:
-Print variable predictedCO2
 ## Program:
 ```
 #Developed by :- Manoj Guna Sundar Tella
